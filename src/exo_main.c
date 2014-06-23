@@ -658,6 +658,7 @@ get_target_info(int target)
             {128, 0x9e, 0x1c01, 0xff00,  "C128"},
             {162, 0x8c, 0x0801, 0xc000,  "Apple ][+"},
             {168, -1,   0x2000, 0xd000,  "Atari 400/800 XL/XE"},
+            {4032, 0x9e, 0x0401, 0x8000,  "PET CBM 4032"},
             {0,   -1,   -1,     -1,  NULL}
         };
     const struct target_info *targetp;
